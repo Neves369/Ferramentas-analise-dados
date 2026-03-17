@@ -1,0 +1,51 @@
+# Análise Quantitativa de Dados
+
+
+## 1. Análises Quantitativas por Coluna
+### Análise da Coluna: Idade
+- Nota: 1 valor(es) não numérico(s) em 'Idade' foram ignorados/convertidos para NaN.
+#### Estatísticas Descritivas
+```
+count    210.000000
+mean      48.033333
+std       13.168174
+min        6.000000
+25%       39.000000
+50%       48.000000
+75%       55.000000
+max       84.000000
+```
+
+#### Faixa Etária
+```
+Idade
+0-17       2
+18-29     12
+30-49    100
+50-64     71
+65+       25
+```
+
+### Análise da Coluna: Sexo
+#### Contagem de Valores
+```
+Sexo
+Masculino    164
+Feminino      47
+```
+
+### Análise da Coluna: Escolaridade
+#### Contagem de Valores
+```
+Escolaridade
+Médio Completo            64
+Médio Incompleto          48
+Fundamental Incompleto    46
+Fundamental Completo      19
+Superior Completo         14
+Não Escolarizado          13
+Superior Incompleto        7
+```
+
+- **Contagem Única de Registros:** 211
+

@@ -74,8 +74,7 @@ def analiseQuantitiva(filename, colunas):
     output_dir = os.path.join(os.getcwd(), "output")
     os.makedirs(output_dir, exist_ok=True)
     
-    output_file = os.path.join(output_dir, "analise-quantitativa.txt")
+    output_file = os.path.join(output_dir, "analise-quantitativa.md")
     with open(output_file, "w", encoding="utf-8") as saida:
         saida.writelines(saida_content)
     
-    return f"✓ Análise quantitativa concluída e salva em {output_file}"

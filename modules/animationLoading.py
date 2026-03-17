@@ -66,10 +66,9 @@ def load_animation():
         counttime = counttime + 1
       
     # for windows OS
-    # if os.name =="nt":
-    #     os.system("cls")
+    if os.name =="nt":
+        os.system("cls")
           
-    # # for linux / Mac OS
-    # else:
-    #     os.system("clear")
-  
+    # for linux / Mac OS
+    else:
+        os.system("clear")
